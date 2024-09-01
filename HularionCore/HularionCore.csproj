@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <ApplicationIcon>HularionIcon.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HularionCore</Title>
+    <Authors>Johnathan A Drews</Authors>
+    <Product>Hularion</Product>
+    <Description>Functionality for general development.</Description>
+    <Copyright>Copyright (c) 2023 Johnathan A Drews</Copyright>
+    <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
+    <PackageIcon>Hularion image.png</PackageIcon>
+    <RepositoryUrl>https://github.com/JohnathanADrews/Hularion</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>hularion</PackageTags>
+    <Version>2.1.2</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Text\**" />
+    <EmbeddedResource Remove="Text\**" />
+    <None Remove="Text\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="HularionIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Hularion image.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
