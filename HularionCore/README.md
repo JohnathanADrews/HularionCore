@@ -7,29 +7,3 @@ ___
 
 # HularionCore
 ### HularionCore is a package that contains many different tools that encapsulate common functionality within Hularion.
-
-
-___
-## Website
-### http://www.hularion.com
-
-
-## Repository
-### https://github.com/JohnathanADrews/HularionCore
-
-
-
-## Nuget Packages:
-### https://www.nuget.org/profiles/JohnathanADrews
-
-
-___
-## Video
-### Rumble (https://rumble.com/c/c-2348260)
-### Youtube (https://www.youtube.com/@hularion)
-### Odysee (https://odysee.com/@Hularion:0?view=content)
-
-
-
-## Social
-### https://twitter.com/johnathanadrews
