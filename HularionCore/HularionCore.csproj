@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -12,14 +12,14 @@
     <Authors>Johnathan A Drews</Authors>
     <Product>Hularion</Product>
     <Description>Functionality for general development.</Description>
-    <Copyright>Copyright (c) 2023 Johnathan A Drews</Copyright>
+    <Copyright>Copyright (c) 2023-2024 Johnathan A Drews</Copyright>
     <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
     <PackageIcon>Hularion image.png</PackageIcon>
     <RepositoryUrl>https://github.com/JohnathanADrews/Hularion</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>hularion</PackageTags>
-    <Version>2.1.2</Version>
+    <Version>3.0.0</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>

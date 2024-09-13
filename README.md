@@ -8,3 +8,5 @@
 &nbsp;
 
 ## Hularion Core
+
+#### Contains core utilities and patterns.
