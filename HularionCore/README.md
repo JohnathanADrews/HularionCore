@@ -6,4 +6,5 @@
 ___
 
 # HularionCore
-### HularionCore is a package that contains many different tools that encapsulate common functionality within Hularion.
+
+#### Contains core utilities and patterns.
